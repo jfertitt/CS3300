@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe Project, type: :model do
+RSpec.describe Projects, type: :model do
   # ...
 
   context "scopes tests" do

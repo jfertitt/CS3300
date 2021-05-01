@@ -13,6 +13,8 @@ SimpleCov.start 'rails' do
   add_filter '/bin/'
   add_filter '/db/'
   add_filter '/spec/' # for rspec
+  add_filter '/log/'
+  add_filter '/coverage/'
 end
 
 # Add additional requires below this line. Rails is not loaded until this point!
@@ -31,6 +33,7 @@ end
 # require only the support files necessary.
 #
 # Dir[Rails.root.join('spec', 'support', '**', '*.rb')].each { |f| require f }
+
 
 
 # Checks for pending migrations and applies them before tests are run.

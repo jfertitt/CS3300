@@ -7,9 +7,7 @@
 # Ignore bundler config.
 /.bundle
 
-coverage/
-
-echo coverage >> .gitignore
+/coverage
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
